@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Mini Apps</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+  <div class="mainScreen">
+    <div class="scorePanel">
+        <div class="topScorePanel">
+            <div class="energy">
+                <img src="img/energy.svg">
+                  <div id="energyBox">
+                    <div id="energyFill"></div>
+                  <span id="energyText">500</span>
+                </div>
+            </div>
+            <div class="ticket">
+                <img src="img/ticket.svg">
+                <div id="ticketBox">
+                <div id="ticketFill"></div>
+                <span id="ticketText">1</span>
+            </div>
+           </div>
+        </div>
+        <div class="centerScorePanel">
+            <img src="img/icons8-coins-64.png">
+            <span id="money">0</span>
+        </div>
+    <div class="bottomScorePanel">
+        <p>+<span id="inHour">0</span></p>
+        </div>
+        </div>
+    <div class="cardsPanel">
+        <div class="upgrade">
+            <p>Прокачайся</p>
+            <div class="containerCardsUpgrade">
+                <div class="card" id="clickLvlEnergy">
+                    <div class="imgCard">
+                        <p>ур. <span id="lvlEnergy">0</span> +<span id="countEnergy"> 100</span> </p>
+                    </div>
+                    <p>Запас енергии</p>
+                    <button id="payLvlEnergy"><p>Купить за</p><span id="pricelLvlEnergy">100</span></p></button>
+                </div>
+                <div class="card" id="clickLvlMulty">
+                    <div class="imgCard">
+                        <p>ур. <span id="lvlMulty">0</span> +
+                            <span id="countMulti">1</span>
+                        </p>
+                    </div>
+                    <p>МулильтиКлик</p>
+                    <button id="payLvlEnergy"><p>Купить за</p><span id="pricelLvlEnergy">100</span></p></button>
+                </div>
+                <div class="card" id="clickLvlRestart">
+                    <div class="imgCard">
+                        <p>
+                            <span id="lvlRestart">0</span> /6 </p>
+                        </p>
+                    
+                    </div>
+                    <p>Перезагрузка</p>
+                    <button id="payLvlRestart">
+                        <p>Бесплатно</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="passiveEarnings"></div>
+    </div>
+    <div class="controlPanel">
+    <a href="index.html" class="hrefControl">
+        <div class="buttonControl">
+            <img src="img/icons8-shop-64.png">
+            <p>Дом</p>
+        </div>
+    </a>
+    <a href="#" class="hrefControl">
+        <div class="buttonControl">
+            <img src="img/icons8-shop-40.png">
+            <p>Магазин</p>
+        </div>
+    </a>
+    <a href="coins.html" class="hrefControl">
+        <div class="buttonControl">
+            <img src="img/icons8-coins-64.png">
+            <p>Comand</p>
+        </div>
+    </a>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
